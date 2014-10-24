@@ -5,9 +5,17 @@
   <link rel="stylesheet" href="/bower_components/angular-material/angular-material.css">
   <link rel="stylesheet" href="/css/style.css">
 </head>
-<body layout="vertical" layout-fill ng-app>
+<body layout="vertical" layout-fill ng-app="MainApp">
   <header>
-    <img src="/images/logo.png" width="182">
+    <section layout="vertical" layout-sm="horizontal">
+      <div class="md-tile-left">
+        <img src="/images/logo.png" width="182">
+      </div>
+      <div class="md-tile-content" style="margin-left: 50px;">
+        <md-button class="md-button-colored">Button</md-button>
+        <md-button class="md-button-colored">Colored</md-button>
+      </div>
+    </section>
   </header>
   <div id="search-route" layout="vertical" layout-sm="horizontal" layout-padding>
     

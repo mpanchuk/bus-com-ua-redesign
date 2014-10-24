@@ -1,6 +1,6 @@
 header {
   background-color: #004077;
-  height: 65px;
+  height: 95px;
   width: 100%;
   padding: 15px 0 0 30px;
 }
@@ -13,3 +13,9 @@ header {
   background-repeat: no-repeat;
   background-position: center top;
 }
+
+md-button.md-button-colored {
+  color: #FFF;
+  fill: #FFF;
+}
+
