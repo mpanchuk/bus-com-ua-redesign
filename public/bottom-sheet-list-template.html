@@ -1,0 +1,8 @@
+<md-bottom-sheet class="list has-header">
+  <md-subheader>Результати пошуку</md-subheader>
+  <md-list>
+    <md-item ng-repeat="item in items" ng-click="listItemClick($index)">
+      <p>{{ item.departure }} - {{ item.arrival }}</p>
+    </md-item>
+  </md-list>
+</md-bottom-sheet>
