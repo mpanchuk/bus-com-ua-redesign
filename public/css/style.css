@@ -44,6 +44,6 @@ md-input-group.md-input-focused input, md-input-group.md-input-focused label {
   background-color: #004077 !important;
 }
 
-md-button .md-button-inner:hover {
+header md-button .md-button-inner:hover {
   color:#004077;
 }
