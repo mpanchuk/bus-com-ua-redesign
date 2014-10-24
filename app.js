@@ -6,7 +6,7 @@ var http = require('http')
 
 var server = http.createServer(function(req, res){
   var url = parse(req.url)
-    , path = join(root, url.pathname == '/' ? '/index.html' : url.pathname)
+    , path = join(root, '/public', url.pathname == '/' ? '/index.html' : url.pathname)
   fs.stat(path, function(err, stat){
     if (err) {
       if ('ENOENT' == err.code) {
