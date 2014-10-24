@@ -19,3 +19,27 @@ md-button.md-button-colored {
   fill: #FFF;
 }
 
+#search-block {
+  background-color: rgba(0,64,119,0.6);
+  height: 300px;
+  width: 400px;
+}
+
+#search-block h2 {
+  text-align: center;
+  color:#fff;
+}
+
+md-input-group.md-input-has-value:not(.md-input-focused) label, .md-input-group.md-input-has-value:not(.md-input-focused) label {
+  color: #fff;
+}
+
+md-input-group input, md-input-group textarea, .md-input-group input, .md-input-group textarea {
+  color: #fff;
+
+}
+
+md-input-group.md-input-focused input, md-input-group.md-input-focused label {
+  border-color: #003059;
+  color: #003059;
+}

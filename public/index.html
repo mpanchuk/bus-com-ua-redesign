@@ -17,13 +17,21 @@
       </div>
     </section>
   </header>
-  <div id="search-route" layout="vertical" layout-sm="horizontal" layout-padding>
-    
+  <div id="search-route" layout="vertical" layout-sm="horizontal" layout-align="center" layout-padding>
+    <div id="search-block">
+      <h2>Пошук маршруту</h2>
+      <div ng-controller="SearchController" layout="horizontal"  layout-align="center">
+        <md-text-float label="Пункт відправлення" ng-model="route.from"></md-text-float>
+        <br>
+        <md-text-float label="Пункт прибуття" ng-model="route.to"></md-text-float>
+      </div>
+    </div>
   </div>
   <script src="/bower_components/angular/angular.js"></script>
   <script src="/bower_components/angular-aria/angular-aria.js"></script>
   <script src="/bower_components/angular-animate/angular-animate.js"></script>
   <script src="/bower_components/hammerjs/hammer.js"></script>
   <script src="/bower_components/angular-material/angular-material.js"></script>
+  <script src="/js/controller.js"></script>
 </body>
 </html>
