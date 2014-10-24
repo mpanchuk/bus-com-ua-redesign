@@ -12,21 +12,24 @@
       <div class="md-tile-left">
         <img src="/images/logo.png" width="182">
       </div>
-      <div class="md-tile-content" style="margin-left: 50px;">
-        <md-button class="md-button-colored">Button</md-button>
-        <md-button class="md-button-colored">Colored</md-button>
+      <div class="md-tile-right" style="margin-left: 70px;">
+        <md-button class="md-button-colored">Допомога</md-button>
+        <md-button class="md-button-colored">Форум</md-button>
       </div>
     </section>
   </header>
-  <div id="search-route" layout="vertical" layout-sm="horizontal" layout-align="center" layout-padding>
-    <div id="search-block">
-      <h2>Пошук маршруту</h2>
-      <div ng-controller="SearchController" layout="horizontal"  layout-align="center">
-        <md-text-float label="Пункт відправлення" ng-model="route.from"></md-text-float>
-        <br>
-        <md-text-float label="Пункт прибуття" ng-model="route.to"></md-text-float>
+  <div id="search-route" layout="vertical" layout-sm="horizontal" layout-align="center center" layout-padding>
+    <md-whiteframe class="md-whiteframe-z2" layout layout-align="center center">
+      <div id="search-block">
+        <h2>Пошук маршруту</h2>
+        <div ng-controller="SearchController" layout="vertical"  layout-align="center center">
+          <md-text-float label="Пункт відправлення" ng-model="route.from"></md-text-float>
+          <md-text-float label="Пункт прибуття" ng-model="route.to"></md-text-float>
+          <br>
+          <md-button class="md-theme-light-blue">Пошук</md-button>
+        </div>
       </div>
-    </div>
+    </md-whiteframe>
   </div>
   <script src="/bower_components/angular/angular.js"></script>
   <script src="/bower_components/angular-aria/angular-aria.js"></script>

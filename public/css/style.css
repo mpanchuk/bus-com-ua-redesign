@@ -11,7 +11,7 @@ header {
   background-image: url("../images/bus-bg.png");
   background-size: 70%;
   background-repeat: no-repeat;
-  background-position: center top;
+  background-position: center center;
 }
 
 md-button.md-button-colored {
@@ -20,26 +20,30 @@ md-button.md-button-colored {
 }
 
 #search-block {
-  background-color: rgba(0,64,119,0.6);
+  background-color: rgba(255,255,255,0.9);
   height: 300px;
   width: 400px;
 }
 
 #search-block h2 {
   text-align: center;
-  color:#fff;
 }
 
 md-input-group.md-input-has-value:not(.md-input-focused) label, .md-input-group.md-input-has-value:not(.md-input-focused) label {
-  color: #fff;
-}
-
-md-input-group input, md-input-group textarea, .md-input-group input, .md-input-group textarea {
-  color: #fff;
-
+  font-size: 16px;
 }
 
 md-input-group.md-input-focused input, md-input-group.md-input-focused label {
   border-color: #003059;
   color: #003059;
+  font-size: 16px;
+}
+
+.md-theme-light-blue {
+  padding: 0 15px 0 15px;
+  background-color: #004077 !important;
+}
+
+md-button .md-button-inner:hover {
+  color:#004077;
 }
