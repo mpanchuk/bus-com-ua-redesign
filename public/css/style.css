@@ -1,0 +1,15 @@
+header {
+  background-color: #004077;
+  height: 65px;
+  width: 100%;
+  padding: 15px 0 0 30px;
+}
+
+#search-route {
+  margin: 20px 0 0 0;
+  height: 500px;
+  background-image: url("../images/bus-bg.png");
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
