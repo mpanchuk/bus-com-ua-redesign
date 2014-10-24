@@ -1,0 +1,25 @@
+{
+  "name": "bus-com-ua-redesign",
+  "version": "1.0.0",
+  "description": "Material design for bus.com.ua website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mpanchuk/bus-com-ua-redesign.git"
+  },
+  "keywords": [
+    "material",
+    "angular",
+    "bus"
+  ],
+  "author": "PP07",
+  "license": "GPL3",
+  "bugs": {
+    "url": "https://github.com/mpanchuk/bus-com-ua-redesign/issues"
+  },
+  "homepage": "https://github.com/mpanchuk/bus-com-ua-redesign",
+  "engines" : { "node" : ">=0.10.32" }
+}
